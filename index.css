@@ -611,3 +611,38 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
+
+
+/* Professional Experience */
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.experience-item {
+  padding: 2.5rem;
+  border-left: 4px solid #ff3258;
+  background: #1a1a1a;
+  border-radius: 8px;
+}
+
+.experience-item h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.experience-item p {
+  font-size: 1.7rem;
+  line-height: 1.7;
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .experience-item {
+    padding: 1.8rem;
+  }
+}
